@@ -1,3 +1,5 @@
 # ccr-thread-synch
 
-A series of macros providing a simple interface for CCR (Conditional critical regions) thread synchronization utility
+Some macros for using Conditional Critical Regions in C multithreading with pthreads. Implemented using pthread library mutexes.
+
+For an example on how to use this, check out ccr_test.c
